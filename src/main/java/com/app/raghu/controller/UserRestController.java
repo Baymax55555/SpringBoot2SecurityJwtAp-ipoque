@@ -1,4 +1,4 @@
-package in.nit.raghu.controller;
+package com.app.raghu.controller;
 
 import java.security.Principal;
 
@@ -11,15 +11,15 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import in.nit.raghu.entity.User;
-import in.nit.raghu.entity.UserRequest;
-import in.nit.raghu.entity.UserResponse;
-import in.nit.raghu.service.IUserService;
-import in.nit.raghu.util.JwtUtil;
+import com.app.raghu.entity.User;
+import com.app.raghu.entity.UserRequest;
+import com.app.raghu.entity.UserResponse;
+import com.app.raghu.service.IUserService;
+import com.app.raghu.util.JwtUtil;
 
 @RestController
 @RequestMapping("/user")
-public class UserController {
+public class UserRestController {
 
 	@Autowired
 	private AuthenticationManager authenticationManager;

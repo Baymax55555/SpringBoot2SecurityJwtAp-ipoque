@@ -1,4 +1,4 @@
-package in.nit.raghu.entity;
+package com.app.raghu.entity;
 
 import lombok.Data;
 

@@ -1,6 +1,6 @@
-package in.nit.raghu.service;
+package com.app.raghu.service;
 
-import in.nit.raghu.entity.User;
+import com.app.raghu.entity.User;
 
 public interface IUserService {
 

@@ -1,4 +1,4 @@
-package in.nit.raghu.config;
+package com.app.raghu.config;
 
 import java.io.IOException;
 

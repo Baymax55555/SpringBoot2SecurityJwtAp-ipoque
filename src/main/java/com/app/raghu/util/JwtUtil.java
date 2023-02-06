@@ -1,4 +1,4 @@
-package in.nit.raghu.util;
+package com.app.raghu.util;
 
 import java.util.Date;
 import java.util.HashMap;

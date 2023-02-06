@@ -1,4 +1,4 @@
-package in.nit.raghu.filter;
+package com.app.raghu.filter;
 
 import java.io.IOException;
 
@@ -16,7 +16,7 @@ import org.springframework.security.web.authentication.WebAuthenticationDetailsS
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
-import in.nit.raghu.util.JwtUtil;
+import com.app.raghu.util.JwtUtil;
 
 @Component
 public class SecurityFilter extends OncePerRequestFilter {
